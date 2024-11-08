@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="info.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <section class="main-container">
+
+        <header>Information Form</header>
+
+        <form action="#" class="form">
+
+            <div class="input-box">
+
+                <label><i class="fa-solid fa-user"></i> Full Name</label>
+                <input type="text" value="Ex. Juan Delacruz" placeholder="Enter full Name" required/>
+
+            </div>
+
+            <div class="input-box">
+                
+                <label><i class="fa-solid fa-envelope"></i> Email Address</label>
+                <input type="email" value="Ex. user@gmail.com" placeholder="Enter Email Address" required/>
+
+            </div>
+
+            <div class="input-box">
+                
+                <label><i class="fa-solid fa-lock"></i> Password</label>
+                <input type="password" maxlength="10"  placeholder="Enter Password" required/>
+
+            </div>
+
+            <div class="column">
+
+                <div class="input-box">
+                
+                    <label><i class="fa-solid fa-phone"></i> Phone Number</label>
+                    <input type="number" value="09234642501" placeholder="Enter Number" required/>
+    
+                </div>
+
+                <div class="input-box">
+                
+                    <label><i class="fa-solid fa-cake-candles"></i> Birth Date</label>
+                    <input type="date" placeholder="Enter Birth Date" required/>
+    
+                </div>
+               
+            </div>
+
+            <div class="geder-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender" checked>
+                        <label for="check-male">Male</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender">
+                        <label for="check-female">Female</label>
+                    </div>
+
+                    <div class="gender">
+                        <input type="radio" id="check" name="gender">
+                        <label for="check-others">Others</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="input-box">
+                
+                <label><i class="fa-solid fa-house"></i> Address</label>
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Enter City</option>
+                            <option value="Caloocan">Caloocan</option>
+                            <option value="Malabon">Malabon</option>
+                            <option value="Navotas">Navotas</option>
+                            <option value="Valenzuela">Valenzuela</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="column">
+
+                    <input type="text" placeholder="Enter Barangay"  required>
+                    <input type="text" placeholder="Enter Street"  required>
+
+                </div>
+              
+                <div class="column">
+
+                    <input type="number" placeholder="Enter House Number"  required>
+                    <input type="number" placeholder="Enter Postal Code"  required>    
+
+                </div>
+
+                <div class="input-box">
+                
+                    <label><i class="fa-solid fa-paperclip"></i> Birth certificate</label>
+                    <input type="file" placeholder="Enter File"  required/>
+    
+                </div>
+
+                <div class="column-button">
+
+                    <div class="input-box">
+                    
+                       <input type="submit" class="btn">
+        
+                    </div>
+    
+                    <div class="input-box">
+                        
+                      <input type="reset" class="btn">
+                       
+                    </div>
+                   
+                </div>
+        </form>
+    </section>
+
+</body>
+</html>
